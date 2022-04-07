@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+.main {
+    height: 100vh;
+    position: relative;
+    line-height: 1.5;
+    margin: 0px 200px 0px 200px;
+}
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.title {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    padding: 18px;
+    width: 100%;
+    box-shadow: 0.5px 1px 5px gray;
+    margin-left: -200px;
+    margin-right: -200px;
+    z-index: 1;
+}
+.title .brtitle button {
+    display: flex;
+    letter-spacing: 4px;
+    background-color: white;
+    border-width: 0;
+    font-size: 0.95rem;
+    padding-left: 14px;
+}
+.title .brtitle button b {
+    margin-right: 9px;
+}
+.title .pactitle {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.title .pactitle button {
+    letter-spacing: 4px;
+    background-color: white;
+    border-width: 0;
+    font-size: 0.95rem;
+    padding-right: 14px;
+    margin-left: 18px;
+}
+.img1 {
+    display: flex;
+}
+.img1 .img1--text {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 800px;
+    font-size: 34px;
+    letter-spacing: 4px;
+    color: white;
+    margin-top: 15px;
+}
+.img1 .img1--text b {
+    padding: 7px 13px 7px 13px;
+    background-color: black;
+    margin-right: 10px;
+    opacity: 75%;
+}
+.projects .projects--title {
+    border-bottom: 1px ridge #dedede;
+    padding: 1px;
+}
+.projects .projects--title p {
+    padding-top: 65px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+.projects .projects--row1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    font-size: 15px;
+}
+.projects--general {
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 45px;
+}
+.projects .projects--row1 .projects--house1 {
+    width: 100%;
+    position: relative;
+    right: 0;
+    height: auto;
+    margin-right: 8px;
+}
+.projects .projects--row1 .projects--house1 img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.projects .projects--row1 .projects--house1 .house1--text {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: white;
+    padding: 9px 15px;
+    background-color: black;
+}
+.projects .projects--row1 .projects--house2 {
+    width: 100%;
+    position: relative;
+    right: 0;
+    height: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.projects .projects--row1 .projects--house2 img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.projects .projects--row1 .projects--house2 .house2--text {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: white;
+    padding: 9px 15px;
+    background-color: black;
+}
+.projects .projects--row1 .projects--house3 {
+    width: 100%;
+    position: relative;
+    right: 0;
+    height: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.projects .projects--row1 .projects--house3 img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.projects .projects--row1 .projects--house3 .house3--text {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: white;
+    padding: 9px 15px;
+    background-color: black;
+}
+.projects .projects--row1 .projects--house4 {
+    width: 100%;
+    position: relative;
+    right: 0;
+    height: auto;
+    margin-left: 8px;
+}
+.projects .projects--row1 .projects--house4 img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.projects .projects--row1 .projects--house4 .house4--text {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: white;
+    padding: 9px 15px;
+    background-color: black;
+}
+.projects .projects--row2 {
+    display: flex;
+    width: 100%;
+    position: relative;
+    font-size: 15px;
+
+    margin-top: 255px;
+}
+.projects .projects--row2 .projects--house5 {
+    width: 100%;
+    position: relative;
+    right: 0;
+    height: auto;
+    margin-right: 8px;
+}
+.projects .projects--row2 .projects--house5 img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.projects .projects--row2 .projects--house5 .house5--text {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: white;
+    padding: 9px 15px;
+    background-color: black;
+}
+.projects .projects--row2 .projects--house6 {
+    width: 100%;
+    position: relative;
+    right: 0;
+    height: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.projects .projects--row2 .projects--house6 img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.projects .projects--row2 .projects--house6 .house6--text {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: white;
+    padding: 9px 15px;
+    background-color: black;
+}
+.projects .projects--row2 .projects--house7 {
+    width: 100%;
+    position: relative;
+    right: 0;
+    height: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.projects .projects--row2 .projects--house7 img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.projects .projects--row2 .projects--house7 .house7--text {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: white;
+    padding: 9px 15px;
+    background-color: black;
+}
+.projects .projects--row2 .projects--house8 {
+    width: 100%;
+    position: relative;
+    right: 0;
+    height: auto;
+    margin-left: 8px;
+}
+.projects .projects--row2 .projects--house8 img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.projects .projects--row2 .projects--house8 .house8--text {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    color: white;
+    padding: 9px 15px;
+    background-color: black;
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    line-height: 1.5;
+}
+.about .about--title {
+    margin-top: 320px;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.about .about--text {
+    padding-top: 15px;
+    border-top: 1px ridge #dedede;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.about .about--imgabout {
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.about .about--imgabout .imgabout1 img {
+    display: flex;
+    width: 100%;
+}
+.about .about--imgabout .imgabout1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    right: 0;
+    height: auto;
+    margin-right: 16px;
+    flex-direction: column;
+}
+.about .about--imgabout .imgabout1 h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.about .about--imgabout .imgabout1 p {
+    opacity: 40%;
+    padding-bottom: 10px;
+}
+.about .about--imgabout .imgabout1 .imgabout1--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 238, 238, 1);
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about .about--imgabout .imgabout1 .imgabout1--button button {
+    border: none;
+    font-size: 15px;
+}
+.about .about--imgabout .imgabout2 img {
+    display: flex;
+    width: 100%;
+}
+.about .about--imgabout .imgabout2 {
+    display: flex;
+    width: 100%;
+    right: 0;
+    height: auto;
+    margin-right: 8px;
+    flex-direction: column;
+}
+.about .about--imgabout .imgabout2 h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.about .about--imgabout .imgabout2 p {
+    opacity: 40%;
+    padding-bottom: 10px;
+}
+.about .about--imgabout .imgabout2 .imgabout2--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 238, 238, 1);
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about .about--imgabout .imgabout2 .imgabout2--button button {
+    border: none;
+    font-size: 15px;
+}
+.about .about--imgabout .imgabout3 img {
+    display: flex;
+    width: 100%;
+}
+.about .about--imgabout .imgabout3 {
+    display: flex;
+    width: 100%;
+    right: 0;
+    height: auto;
+    margin-right: 8px;
+    flex-direction: column;
+}
+.about .about--imgabout .imgabout3 h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.about .about--imgabout .imgabout3 p {
+    opacity: 40%;
+    padding-bottom: 10px;
+}
+.about .about--imgabout .imgabout3 .imgabout3--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 238, 238, 1);
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about .about--imgabout .imgabout3 .imgabout3--button button {
+    border: none;
+    font-size: 15px;
+}
+.about .about--imgabout .imgabout4 img {
+    display: flex;
+    width: 100%;
+}
+.about .about--imgabout .imgabout4 {
+    display: flex;
+    width: 100%;
+    right: 0;
+    height: auto;
+    margin-right: 8px;
+    flex-direction: column;
+}
+.about .about--imgabout .imgabout4 h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.about .about--imgabout .imgabout4 p {
+    opacity: 40%;
+    padding-bottom: 10px;
+}
+.about .about--imgabout .imgabout4 .imgabout4--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 238, 238, 1);
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about .about--imgabout .imgabout4 .imgabout4--button button {
+    border: none;
+    font-size: 15px;
+}
+.container .contact h1 {
+    border-bottom: 1px ridge #dedede;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
+.container .contact p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contact .contact--input {
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(245, 245, 245);
+}
+.contact .contact--input .input {
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact .contact--input .contact--button {
+    padding-top: 10px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+.contact .contact--input .contact--button button {
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    background-color: black;
+    font-size: 15px;
+}
+.footer {
+    /* display: flex; */
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+    margin-left: -200px;
+    margin-right: -200px;
+    margin-top: 3px;
+    color: white;
+}
+.footer p {
+    color: white;
+    font-size: 15px;
+}
+.footer a {
+    color: white;
+}
